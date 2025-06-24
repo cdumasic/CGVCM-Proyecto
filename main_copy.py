@@ -35,6 +35,7 @@ class MainApp(ctk.CTk):
         self.frames["ListaSenasWindow"] = lista_page
         lista_page.grid(row=0, column=0, sticky="nsew")
 
+
         self.show_frame("Menu")
 
     def create_menu(self, parent):
